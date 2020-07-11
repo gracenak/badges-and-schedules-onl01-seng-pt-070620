@@ -18,6 +18,15 @@ def assign_rooms(speakers)
   assign
 end
 
+def conference_badges
+  printer = []
+  attendees.each do |attendee|
+    list << "Hello, my name is #{attendee}."
+  speakers.each_with_index do |speaker,index|
+  assign << "Hello, #{speaker}! You'll be assigned to room #{index+1}!"
+  
+  
+
 
     
     
