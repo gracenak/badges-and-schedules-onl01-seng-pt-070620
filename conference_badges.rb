@@ -19,7 +19,7 @@ def assign_rooms(speakers)
 end
 
 def printer(attendees)
-  printer = []
+  conference_badges = []
   attendees.each do |attendee|
     printer << "Hello, my name is #{attendee}."
   end
