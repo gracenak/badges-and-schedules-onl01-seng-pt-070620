@@ -21,10 +21,10 @@ end
 def printer(attendees)
   conference_badges = []
   attendees.each do |attendee|
-    printer << "Hello, my name is #{attendee}."
+    conference_badges << "Hello, my name is #{attendee}."
   end
   speakers.each_with_index do |speaker,index|
-  printer << "Hello, #{speaker}! You'll be assigned to room #{index+1}!"
+  conference_badges << "Hello, #{speaker}! You'll be assigned to room #{index+1}!"
 end
 printer
 end 
