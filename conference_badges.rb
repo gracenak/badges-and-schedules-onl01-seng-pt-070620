@@ -19,7 +19,6 @@ def assign_rooms(speakers)
 end
 
 def printer(attendees)
-  conference_badge = []
   batch_badge_creator(attendees).each do |badge|
   puts conference_badge
 end
