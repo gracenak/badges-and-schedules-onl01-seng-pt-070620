@@ -19,15 +19,8 @@ def assign_rooms(speakers)
 end
 
 def printer(attendees)
-  conference_badges = []
-  attendees.each do |attendee|
-    conference_badges << "Hello, my name is #{attendee}."
-  end
-  speakers.each_with_index do |speaker,index|
-  conference_badges << "Hello, #{speaker}! You'll be assigned to room #{index+1}!"
-end
-printer
-end 
+  conference_badge = []
+  batch_badge_creator(attendees) 
 
 
   
