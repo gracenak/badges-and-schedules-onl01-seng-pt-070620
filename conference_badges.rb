@@ -11,9 +11,9 @@ def batch_badge_creator(attendees)
    list
 end
 
-def assign_rooms(attendees)
-  each_with_index = []
-  attendees.each do |x|
+def assign_rooms(speakers)
+   assign= []
+  speakers.each with index .each do |x|
     assignment = attendees.index 
   binding.pry
   end
