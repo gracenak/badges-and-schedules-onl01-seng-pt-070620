@@ -22,7 +22,7 @@ def conference_badges
   printer = []
   attendees.each do |attendee|
     printer << "Hello, my name is #{attendee}."
-  
+  end
   speakers.each_with_index do |speaker,index|
   printer << "Hello, #{speaker}! You'll be assigned to room #{index+1}!"
 end
