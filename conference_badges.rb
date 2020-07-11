@@ -13,7 +13,8 @@ end
 
 def assign_rooms(speakers)
    assign= []
-  speakers.each with index .each do |x|
+  speakers.each with index {|speaker,index|}
+  speakers.each do 
     assignment = attendees.index 
   binding.pry
   end
