@@ -20,14 +20,13 @@ end
 
 def printer(attendees)
   conference_badge = []
-  puts batch_badge_creator(attendees).each do |badge|
+  batch_badge_creator(attendees).each do |badge|
+  puts conference_badge
 end
-conference_badge
 
-
-    puts assign_rooms(attendees).each_with_index do |badge|
-  end
-  conference_badge
+    assign_rooms(attendees).each_with_index do |badge|
+  puts conference_badge
+end
 end
 
 
